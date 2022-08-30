@@ -1,0 +1,126 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20%;
+    /* color: #fff; */
+    background-color: #00008b;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+.logo-details{
+    flex-direction: row;
+    color: #fff;
+    font-size: 30px;
+}
+.media-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.media-icons>a>i{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.media-icons>a{
+    text-decoration: none;
+}
+.fa-facebook-f{
+    background-color: #3b5998;
+    color: #fff;
+}
+.fa-twitter{
+    background-color: #87ceeb;
+    color: #fff;
+}
+.fa-instagram{
+    background-color: #ff0000a2;
+    color: #fff;
+}
+.fa-linkedin-in{
+    background-color: #87b6eb;
+    color: #fff;
+}
+.fa-youtube{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.link-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+}
+.box>li{
+    color: #fff;
+    list-style: none;
+    margin-top: 10px;
+}
+.box>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.link_name{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+.input-box>.link_name{
+    font-size: 20px;
+}
+.input-box>li>input{
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.input-box>li>input[type=text]{
+    background-color: #00008b;
+    border: 2px solid #ffffffab;
+}
+.input-box>li>input[type=button]{
+    background-color: #fff;
+    border: 2px solid #00008b;
+    font-size: 20px;
+    padding: 10px 78px;
+}
+.bottom-details{
+    background-color:#120E43;
+    padding: 2%;
+    color: #fff;
+}
+.bottom_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom_text>span>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+

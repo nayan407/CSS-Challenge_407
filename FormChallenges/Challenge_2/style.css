@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+body{
+    background-image: linear-gradient(to right, #ffff00 , #007bff);
+}
+.center{
+    background-color: #fff;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15%;
+    padding: 1% 2%;
+    padding-bottom: 5%;
+}
+h1::before {
+    content: "|";
+    color: #007bff;
+    font-weight: 900;
+    font-size: 60px;
+  }
+.center>h1{
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 10%;
+}
+span {
+    display: block;
+    transform: translate(0, -2rem);
+    color: #808080;
+    margin-left: 20px;
+    color: #000000;
+    font-weight: 500;
+  }
+  input{
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: #000000;
+  }
+  input[type=button]{
+    background-color: #0084ff;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 30px;
+  }

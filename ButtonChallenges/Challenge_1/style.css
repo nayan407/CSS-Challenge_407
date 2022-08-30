@@ -1,0 +1,35 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+.container{
+    margin-top:25%;
+    margin-left: 50%;
+    color: white;
+    
+}
+.btn>span>b{
+        background-color: #0077fff1;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+}
+.badge{
+        position: absolute;
+        vertical-align: super;
+        font-size: smaller;
+        padding: 10px;
+        background-color: #1f1f1f;
+        border-radius: 50%;
+        color: #fff;
+        top: 49%;
+        right: 41%;
+        text-decoration: none;
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+#myTable{
+    margin-top: 10%;
+    margin-left: 40%;
+    
+}
+h1{
+    font-family: "Indie+Flower" ,sans-serif;
+}
+tr{
+    background-color: #50DBB4;
+    font-family:"Indie+Flower" sans-serif;
+}
+caption{
+    font-size: 30px;
+    padding: 2%;
+    font-weight: 900;
+}
+tr:nth-child(3)>td:last-child{
+    background-color: #808080;
+}

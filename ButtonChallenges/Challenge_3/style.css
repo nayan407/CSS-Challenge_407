@@ -1,0 +1,23 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+}
+.btn-wrapper{
+    margin-top:25%;
+    margin-left: 40%;
+}
+.btn-text-two{
+    display: none;
+}
+.btn-text-one{
+    padding: 10px 60px;
+    background-color: #0000ffc4;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 30px 50px 10px #808080;
+}
